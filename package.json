@@ -1,0 +1,32 @@
+{
+  "name": "react-inline-svg",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha -w",
+    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+  },
+  "keywords": [],
+  "author": "Greg Douglas <gwshark0@gmail.com> (https://github.com/GWShark0)",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.3",
+    "lodash.isnumber": "^3.0.2",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-transform-object-rest-spread": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "react-addons-test-utils": "^0.14.7",
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
