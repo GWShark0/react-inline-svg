@@ -2,9 +2,9 @@
   "name": "react-inline-svg",
   "version": "0.0.1",
   "description": "",
-  "main": "bundle.js",
+  "main": "lib/svg.js",
   "scripts": {
-    "build": "./node_modules/webpack/bin/webpack.js",
+    "build": "./node_modules/babel-cli/bin/babel.js ./src --out-dir ./lib",
     "test": "mocha",
     "test:watch": "mocha -w",
     "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
@@ -20,6 +20,7 @@
     "react": "^0.14.7"
   },
   "devDependencies": {
+    "babel-cli": "^6.4.5",
     "babel-core": "^6.4.5",
     "babel-loader": "^6.2.1",
     "babel-plugin-transform-object-rest-spread": "^6.3.13",
