@@ -1,8 +1,13 @@
 module.exports = {
-  entry: './index.js',
+  entry: './src/svg.js',
   output: {
     path: __dirname,
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    library: 'ReactSVG',
+    libraryTarget: 'umd'
+  },
+  externals: {
+    'react': 'React'
   },
   module: {
     loaders: [
